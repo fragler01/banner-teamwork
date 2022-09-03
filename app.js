@@ -5,6 +5,6 @@ function getSliderValue(){
     let slider = document.getElementById("slider").value;
     let kepek = document.getElementById("kepek");
 
-    kepek.style = `animation-duration: ${slider.value*5}`;
+    document.getElementById("myDIV").style.animationDuration = slider.value + "s";
 
 }
