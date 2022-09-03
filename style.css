@@ -1,16 +1,17 @@
-#kepek > *{
+#kepek{
     width: 150px;
     height: 150px;
     animation-name: image-changer;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-
+    background-size: cover;
 }
 
 @keyframes image-changer {
-    0%   {background-image: url("img/")}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-  }
+    0%   {background-image: url("img/1.jpg")}
+    20%  {background-image: url("img/2.jpg")}
+    40%  {background-image: url("img/3.jpg")}
+    60%  {background-image: url("img/4.jpg")}
+    80%  {background-image: url("img/5.jpg")}
+    100% {background-image: url("img/1.jpg")}
+}
