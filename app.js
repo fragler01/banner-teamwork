@@ -5,6 +5,6 @@ function getSliderValue(){
     let slider = document.getElementById("slider").value;
     let kepek = document.getElementById("kepek");
 
-    document.getElementById("myDIV").style.animationDuration = slider.value + "s";
-
+    slider.style.animationDuration = slider.value + "s";
+    document.getElementById("valasztott").innerHTML = slider.value;
 }
