@@ -15,3 +15,7 @@
     80%  {background-image: url("img/5.jpg")}
     100% {background-image: url("img/1.jpg")}
 }
+
+.slider-container{
+    width: 100%;
+}
