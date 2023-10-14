@@ -1,5 +1,5 @@
-# banner-csapat-munka
-Lórántos órai munkás gyakorlásos csapatmunka
+# Banner team work
+Creating a banner in a team
 
 - Gubis Mátyás
 - Császár Richárd
